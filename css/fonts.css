@@ -1,0 +1,32 @@
+/*bebasneue-regular*/
+@font-face{
+	font-family: "bebasneue-regular";
+	src: url("../fonts/bebasneue-regular/bebasneue-regular.eot");
+	src: url("../fonts/bebasneue-regular/bebasneue-regular.eot?#iefix") format("embedded-opentype"),
+			url("../fonts/bebasneue-regular/bebasneue-regular.woff") format("woff"),
+			url("../fonts/bebasneue-regular/bebasneue-regular.ttf") format("truetype") ;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*dalton-maag-effra*/
+@font-face{
+	font-family: "effra";
+	src: url("../fonts/dalton-maag-effra/dalton-maag-effra.eot");
+	src: url("../fonts/dalton-maag-effra/dalton-maag-effra.eot?#iefix") format("embedded-opentype"),
+			url("../fonts/dalton-maag-effra/dalton-maag-effra.woff") format("woff"),
+			url("../fonts/dalton-maag-effra/dalton-maag-effra.ttf") format("truetype") ;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*dalton-maag-effra-bold*/
+@font-face{
+	font-family: "effra-bold";
+	src: url("../fonts/dalton-maag-effra-bold/dalton-maag-effra-bold.eot");
+	src: url("../fonts/dalton-maag-effra-bold/dalton-maag-effra-bold.eot?#iefix") format("embedded-opentype"),
+			url("../fonts/dalton-maag-effra-bold/dalton-maag-effra-bold.woff") format("woff"),
+			url("../fonts/dalton-maag-effra-bold/dalton-maag-effra-bold.ttf") format("truetype") ;
+	font-style: normal;
+	font-weight: normal;
+}

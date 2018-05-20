@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>User.psd</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- шапка сайта -->
+<?php 
+  include('inc/header.php'); 
+?>
+
+<!-- Навигация -->
+
+<?php
+  include('inc/nav.php');
+?>
+<div class="container-fluid banner">
+  
+    <div class="container vertical-align">
+
+      <div class="col-md-offset-2">
+        <div class="col-lg-3 col-md-3">
+          <img class="img-responsive" src="./img/Group 1.png">
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <img class="img-responsive" src="./img/Group 2.png">
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <img class="img-responsive" src="./img/Group 3.png">
+        </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container-fluid ">
+  <div class="row block3 text-center">
+    <div class="col-lg-12 col-md-12 col-sm-12 what">
+      <p align="center">Что Вы получите?</p>
+    </div>
+    <div class="col-lg-12 col-md-12 group1 ">
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img text-center"> <!-- col-lg-4 col-md-4 col-sm-4 -->
+        <img src="../img/icon1.jpg" alt="">
+      </div>
+      <div class="icon6_p col-md-12 text-center">  <!-- col-lg-8 col-md-8 col-sm-8  -->
+        <p>Высокие позиции<br>по запросам</p>
+      </div>        
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img">  <!-- col-lg-4 col-md-4 col-sm-4  -->
+        <img src="../img/icon2.png" alt="">
+      </div>
+      <div class="icon6_p">  <!-- col-lg-8 col-md-8 col-sm-8  -->
+        <p>Рост посещаемости<br>сайта</p>
+      </div>  
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img">  <!-- col-lg-4 col-md-4 col-sm-4  -->
+        <img src="../img/icon3.png" alt="">
+      </div>
+      <div class="icon6_p">   <!-- col-lg-8 col-md-8 col-sm-8  -->
+        <p>Рост количества<br>обращений/заявок</p>
+      </div>  
+    </div>
+    </div>
+    <div class="col-lg-12 col-md-12 group1">
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img"> <!-- col-lg-4 col-md-4 col-sm-4  -->
+        <img src="../img/icon4.png" alt="">
+      </div>
+      <div class="icon6_p">
+        <p>Рост узнаваемости<br>бренда</p>
+      </div>        
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img"><!-- col-lg-4 col-md-4 col-sm-4  -->
+        <img src="../img/icon5.png" alt="">
+      </div>
+      <div class="icon6_p">
+        <p>Профессиональная<br>команда специалистов</p>
+      </div>  
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 icon6 text-center">
+      <div class="icon6_img"><!-- col-lg-4 col-md-4 col-sm-4  -->
+        <img src="../img/icon6.png" alt="">
+      </div>
+      <div class="icon6_p">
+        <p>Рекомендации<br>по развитию сайта<br>на оснований анализа<br>конкурентов</p>
+      </div>  
+    </div>
+    </div>
+  </div>
+</div>  
+
+
+<!-- Подвал сайта -->
+
+<div class="container-fluid">
+  <div class="row feedform">
+    <div class="col-lg-6 address text-right">
+      <div class="col-lg-8 col-lg-offset-2">
+        <strong>Рекламное агентство "KeyNet"</strong>
+      <br>
+      <br>
+      <span>Республика Казахстан, г.Актобе</span>
+      <br>
+      <br>
+      <span>проспект Абулхайыр хана 16.</span>
+      <br>
+      <br>
+      <span>+7 7132 73 75 05</span>
+      <br>
+      <br>
+      <span>+7 776 373 75 03</span>
+      <br>
+      <br>
+      <span>key_net@mail.ru</span>
+      </div>
+    </div>
+    <div class="col-lg-6 feedback">
+    <a name="feedback"></a>
+    <form role="form" id="contactForm">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+                  <strong>Оставить заявку</strong>
+                  <br>
+                  <br>
+                  <label for="name" class="h4">Имя</label>
+                  <input type="text" class="form-control" id="name" placeholder="Ваша имя" size="10" required>
+                  <br>
+                  <label for="email" class="h4">Телефон</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Ваш телефон" required>
+                  <br>
+                  <label for="message" class="h4 ">Сообщение</label>
+                  <textarea id="message" class="form-control" rows="3" required></textarea>          
+                  <br>
+          <button type="submit" id="form-submit" class="btn btn-success btn-md pull-right ">Отправить</button>
+         <div id="msgSubmit" class="h3 text-center hidden">Ваше сообщение отправлено</div>
+       </div>
+     </div>
+    </form>
+              </div>
+    </div>
+  </div>
+<div class="container-fluid">
+  <div class="row nav2">
+      <div class="col-lg-3 icon">
+        <div class="col-sm-4 text-center">
+          <img class="img-responsive" src="./img/inst.png">
+        </div>
+        <div class="col-sm-4 text-center">
+          <img class="img-responsive" src="./img/vk.png">
+        </div>
+        <div class="col-lg-4 text-center">
+          <img class="img-responsive" src="./img/fb.png">
+        </div>
+      </div>
+  
+  <div class="col-lg-9">
+    <nav class="footer_navbar">
+    <ul class="nav navbar-nav">
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">наши клиенты</a></li>
+      <li><a href="#">отзывы</a></li>
+      <li><a href="#">контакты</a></li>
+    </ul>
+  </nav>
+  </div>
+</div>
+</div>
+  
+  <!--   jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
